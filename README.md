@@ -1,6 +1,7 @@
 # Basic level interview questions
 
 ## Java
+----
 
 #### What is the difference between JVM and JRE?
 
@@ -86,11 +87,12 @@ The process of converting stream data created through serialization to Object is
 
 
 ### Functional Programing
+-------
 
 A functional approach involves composing the problem as a set of functions to be executed. A programmer define the input to each function, and what each function returns. Funtions are self-contained and stateless and they do not rely on any external state.
 
 ## Scala
-
+-----
 
 #### What are the Scala Features?
 
@@ -150,6 +152,7 @@ Explain few collections in Scala?
 
 
 ## Spark
+----
 
 #### What is Apache Spark?
 
@@ -223,6 +226,7 @@ Minimizing data transfers and avoiding shuffling helps write spark programs that
 * The most common way is to avoid operations ByKey, repartition or any other operations which trigger shuffles.
 
 ## Hadoop
+------
 
 #### What is Big Data?
 
