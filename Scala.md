@@ -45,7 +45,7 @@ Eg: val l = List(“Computer”, “Keyboard”, “Mouse”, “Monitor”)
 l.map(_.toUpperCase) //Returns COMPUTER, KEYBOARD, MOUSE, MONITOR
 l.flatMap(_.toUpperCase) //Returns C,O,M,P,U,T,E,R,K,E,Y,B,O,A,R,D,M,O,U,S,E,M,O,N,I,T,O,R
 
-What is Case Class importance in scala?
+#### What is Case Class importance in scala?
 
 Depending on constructor arguments, case class generate an immutable data-holding objects.
 
@@ -53,7 +53,7 @@ Depending on constructor arguments, case class generate an immutable data-holdin
  * Case classes automatically define hashcode and equals
  * Case classes automatically define getter methods for the constructor arguments.
  
-Explain few collections in Scala?
+#### Explain few collections in Scala?
 
 * Array:List same type element, it’s mutable.
 * list: List same type elements, its immutable.
